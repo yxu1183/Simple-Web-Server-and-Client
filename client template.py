@@ -1,4 +1,8 @@
-
+"""
+Name : Yunika Upadhayaya
+ID: 1001631183
+CSE 4344 - Project 1
+"""
 import socket
 from time import *
 import sys
