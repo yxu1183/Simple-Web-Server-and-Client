@@ -2,7 +2,7 @@
 ### Computer Networks/Project-1: Created by [Dr. Sajib Datta](http://crystal.uta.edu/~datta/)
 
 ## Description
-A multi-threaded web server that interacts with any standard web clients using HHTP and display the essention connection parameters.
+A multi-threaded web server that interacts with any standard web clients using HHTP and displays the essention connection parameters.
 
 ## Functionality
 * Multi-threaded server that handles multiple requests concurrently.
@@ -11,13 +11,13 @@ A multi-threaded web server that interacts with any standard web clients using H
 * Server can handle incoming client requests and display essential client details.
 * If no file is requested, then the server uses the default file to response.
 * If the file requested by the client is not in the server, then it responses with “HTTP/1.1 404 Not Found”.
-* If the file requested by the server is not in the server, then it responses with “HTTP/1.1 200 OK”.
+* If the file requested by the server is in the server, then it responses with “HTTP/1.1 200 OK”.
 * Client connects the server and requests file to the server.
 * Client displays the status and contents of the file requested.
 * Client also displays essential server details.
 
 ## Compilation Instructions
-The code is implemented using following interpretor:
+The code is implemented using the following interpretor:
 
 ```
 Python 3.9
@@ -33,7 +33,7 @@ Running main_client.py:
 ```
 main_client.py <host_name> <port_number> <file_name>
 ```
-Note: Host name, port number, and file name are optional. If not provided default values of  "127.0.0.1", "8080", and "index.html" are used respectively. The order of arguments matters. 
+Note: Host name, port number, and file name are optional. If not provided, default values of  "127.0.0.1", "8080", and "index.html" are used respectively. The order of arguments matters. 
 
 ## Author
 [Yunika Upadhayaya](https://github.com/yxu1183) - *Student ID: 1001631183*
