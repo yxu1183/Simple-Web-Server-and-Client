@@ -2,7 +2,7 @@
 ### Computer Networks/Project-1: Created by [Dr. Sajib Datta](http://crystal.uta.edu/~datta/)
 
 ## Description
-A multi-threaded web server that interacts with any standard web clients using HHTP and displays the essention connection parameters.
+A multi-threaded web server that interacts with any standard web clients using HTTP and displays the essention connection parameters.
 
 ## Functionality
 * Multi-threaded server that handles multiple requests concurrently.
